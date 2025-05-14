@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on Интегрированная автоматизация производства изделий в интеллектуальной технологической линии</title>
+    <link>https://example.org/posts/</link>
+    <description>Recent content in Posts on Интегрированная автоматизация производства изделий в интеллектуальной технологической линии</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 12 May 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://example.org/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Результаты проекта</title>
+      <link>https://example.org/posts/post2/</link>
+      <pubDate>Mon, 12 May 2025 00:00:00 +0000</pubDate>
+      <guid>https://example.org/posts/post2/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Достигнутые показатели:&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Тестовый режим&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Связь с датчиками реального конвейера&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Возможность переключаться между режимами&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ol&gt;</description>
+    </item>
+    <item>
+      <title>Подключение к Siemens S7-1200</title>
+      <link>https://example.org/posts/post1/</link>
+      <pubDate>Sat, 10 May 2025 00:00:00 +0000</pubDate>
+      <guid>https://example.org/posts/post1/</guid>
+      <description>&lt;p&gt;Реализовано подключение к промышленному контроллеру через Snap7.&lt;/p&gt;&#xA;&lt;p&gt;Особенности работы:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Чтение входов/выходов ПЛК по Modbus:&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Синхронизация с визуализацией каждые 100мс&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;Текущие ограничения:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Задержка обработки: ~200мс&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Поддерживаются только базовые типы данных (Bool, Byte, Word)&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://example.org/images/posts/snap7.png&#34; alt=&#34;Подключение к ПЛК&#34;&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Тестовый режим</title>
+      <link>https://example.org/posts/journal/</link>
+      <pubDate>Wed, 07 May 2025 00:00:00 +0000</pubDate>
+      <guid>https://example.org/posts/journal/</guid>
+      <description>&lt;p&gt;Сегодня мы завершили базовую реализацию тестового режима.&lt;/p&gt;&#xA;&lt;p&gt;Реализовано:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Визуализация конвейера на tkinter с движущимися полосами&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Имитация датчиков (сенсоры срабатывают при пересечении коробками зон 90-110px и 340-360px)&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Ручное управление через GUI:&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;Проблемы:&#xA;Задержка при обработке более 5 коробок. Оптимизируем алгоритм в следующем обновлении.&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://example.org/images/posts/test-conveyor.png&#34; alt=&#34;Окно приложения&#34;&gt;&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

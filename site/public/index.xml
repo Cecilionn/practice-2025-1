@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Главная on Интегрированная автоматизация производства изделий в интеллектуальной технологической линии</title>
+    <link>https://example.org/</link>
+    <description>Recent content in Главная on Интегрированная автоматизация производства изделий в интеллектуальной технологической линии</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 12 May 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://example.org/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Результаты проекта</title>
+      <link>https://example.org/posts/post2/</link>
+      <pubDate>Mon, 12 May 2025 00:00:00 +0000</pubDate>
+      <guid>https://example.org/posts/post2/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Достигнутые показатели:&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Тестовый режим&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Связь с датчиками реального конвейера&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Возможность переключаться между режимами&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ol&gt;</description>
+    </item>
+    <item>
+      <title>Подключение к Siemens S7-1200</title>
+      <link>https://example.org/posts/post1/</link>
+      <pubDate>Sat, 10 May 2025 00:00:00 +0000</pubDate>
+      <guid>https://example.org/posts/post1/</guid>
+      <description>&lt;p&gt;Реализовано подключение к промышленному контроллеру через Snap7.&lt;/p&gt;&#xA;&lt;p&gt;Особенности работы:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Чтение входов/выходов ПЛК по Modbus:&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Синхронизация с визуализацией каждые 100мс&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;Текущие ограничения:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Задержка обработки: ~200мс&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Поддерживаются только базовые типы данных (Bool, Byte, Word)&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://example.org/images/posts/snap7.png&#34; alt=&#34;Подключение к ПЛК&#34;&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Тестовый режим</title>
+      <link>https://example.org/posts/journal/</link>
+      <pubDate>Wed, 07 May 2025 00:00:00 +0000</pubDate>
+      <guid>https://example.org/posts/journal/</guid>
+      <description>&lt;p&gt;Сегодня мы завершили базовую реализацию тестового режима.&lt;/p&gt;&#xA;&lt;p&gt;Реализовано:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Визуализация конвейера на tkinter с движущимися полосами&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Имитация датчиков (сенсоры срабатывают при пересечении коробками зон 90-110px и 340-360px)&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Ручное управление через GUI:&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;Проблемы:&#xA;Задержка при обработке более 5 коробок. Оптимизируем алгоритм в следующем обновлении.&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://example.org/images/posts/test-conveyor.png&#34; alt=&#34;Окно приложения&#34;&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>О проекте</title>
+      <link>https://example.org/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/about/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://example.org/&#34;&gt;Главная страница&lt;/a&gt;&#xA;&lt;a href=&#34;https://example.org/about/&#34;&gt;О проекте&lt;/a&gt;&#xA;&lt;a href=&#34;https://example.org/members/&#34;&gt;Участники&lt;/a&gt;&#xA;&lt;a href=&#34;https://example.org/resources/&#34;&gt;Ресурсы&lt;/a&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;цифровой-двойник-ленточного-конвейера&#34;&gt;Цифровой двойник ленточного конвейера&lt;/h2&gt;&#xA;&lt;p&gt;&lt;strong&gt;Цель проекта:&lt;/strong&gt;&lt;br&gt;&#xA;Создание интеллектуальной системы для автоматизации производства с двумя ключевыми режимами:&lt;/p&gt;&#xA;&lt;h3 id=&#34;основные-функции&#34;&gt;Основные функции&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;🎯 &lt;strong&gt;Режим реального времени&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Мониторинг параметров конвейера&lt;/li&gt;&#xA;&lt;li&gt;Визуализация данных с датчиков в 2D-интерфейсе&lt;/li&gt;&#xA;&lt;li&gt;Оповещения о критических состояниях&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;🧪 &lt;strong&gt;Тестовый режим&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Имитация работы конвейера без подключения к оборудованию&lt;/li&gt;&#xA;&lt;li&gt;Моделирование аварийных сценариев&lt;/li&gt;&#xA;&lt;li&gt;Возможность тестирования изменений параметров&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://example.org/images/posts/conveyor.png&#34; alt=&#34;Ленточный конвейер&#34;&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Ресурсы</title>
+      <link>https://example.org/resources/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/resources/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://example.org/&#34;&gt;Главная страница&lt;/a&gt;&#xA;&lt;a href=&#34;https://example.org/about/&#34;&gt;О проекте&lt;/a&gt;&#xA;&lt;a href=&#34;https://example.org/members/&#34;&gt;Участники&lt;/a&gt;&#xA;&lt;a href=&#34;https://example.org/resources/&#34;&gt;Ресурсы&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://technograd.moscow/&#34;&gt;https://technograd.moscow/&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Участники</title>
+      <link>https://example.org/members/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.org/members/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://example.org/&#34;&gt;Главная страница&lt;/a&gt;&#xA;&lt;a href=&#34;https://example.org/about/&#34;&gt;О проекте&lt;/a&gt;&#xA;&lt;a href=&#34;https://example.org/members/&#34;&gt;Участники&lt;/a&gt;&#xA;&lt;a href=&#34;https://example.org/resources/&#34;&gt;Ресурсы&lt;/a&gt;&lt;/p&gt;&#xA;&lt;h2 id=&#34;три-разработчика--один-код&#34;&gt;Три разработчика — один код&lt;/h2&gt;&#xA;&lt;p&gt;Мы работаем как единый организм над созданием цифрового двойка конвейера. Каждый участник вносит равный вклад во все аспекты проекта: от работы с датчиками до 2D-визуализации.&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Ощепков Д.В&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;em&gt;Fullstack-разработчик&lt;/em&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;ФИО&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;em&gt;Fullstack-разработчик&lt;/em&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;ФИО&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;em&gt;Fullstack-разработчик&lt;/em&gt;&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
